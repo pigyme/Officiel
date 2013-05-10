@@ -1,0 +1,102 @@
+/*
+	
+//////Creater by: Edolas DevTeam
+//////05-05-2013
+		
+*/
+	
+	
+body{
+	background-image:url(images/fond.jpg);
+	padding:0;
+	margin:0;
+}
+#global {
+  margin: auto;
+  position:relative;
+  width: 90%; /* largeur obligatoire pour être centré */
+  max-width:920px;
+}
+/* Top */
+#logo{
+	background-image:url(images/logo.png);
+	min-width:220px;
+	min-height:71px;
+	top:4%;
+	left:auto;
+	background-repeat:no-repeat;
+	position:absolute;
+	}
+#header{
+    margin-top:-10px;
+	background-image:url(images/header.png);
+	min-width:956px;
+	min-height:267px;
+	background-repeat:no-repeat;
+}
+#menu{
+	background-image:url(images/menu.png);
+	min-width:918px;
+	min-height:56px;
+	width:90%;
+	margin-top:-150px;
+	background-repeat:no-repeat;
+	
+}
+	
+/* fin top*/
+/*Contenu*/
+#promo1{
+    background-image:url(images/promo.png);
+    background-repeat:no-repeat;
+    min-width:187px;
+    max-width:187px;
+    min-height:189px;
+    margin-left:15px;
+    display:inline-block;
+}
+#promo2{
+    background-image:url(images/promo.png);
+    background-repeat:no-repeat;
+    min-width:187px;
+    max-width:187px;
+    min-height:189px;
+    display:inline-block;
+}
+#promo3{
+    background-image:url(images/promo.png);
+    background-repeat:no-repeat;
+    max-width:187px;
+    min-width:187px;
+    min-height:189px;
+    display:inline-block;
+}
+#container{
+	background-image:url(images/conteneur.png);
+	min-width:918px;
+	max-width:918px;
+	height:100%;
+	width:90%;
+	margin-left:1px;
+	background-repeat:repeat-y;
+}
+
+/*fin contenu*/
+/*debut footer*/
+#footer{
+	background-image:url(images/footer.jpg);
+	min-width:918px;
+	margin-left:2px;
+	width:90%;
+	background-repeat:no-repeat;
+	}
+.txtfooter{
+    width:90%;
+    height:20%;
+    margin:auto;
+    
+	text-align:center;
+}
+	
+/* fin footer*/		
+		
